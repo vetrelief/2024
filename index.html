@@ -105,6 +105,28 @@
       <button class="button">Veterinarians</button>
       <button class="button">Pet Owners</button>
     </div>
+    Here's an example of a KML file for the job example you provided:
+
+XML
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Placemark>
+      <name>Telehealth Consultation - Abby (Yorkie Terrier)</name>
+      <description>Requesting a telehealth call for Abby's behavior. - Sara</description>
+      <Point>
+        <coordinates>-117.7092,33.6442</coordinates> </Point>
+      <styleUrl>#pet-icon</styleUrl>
+    </Placemark>
+    <Style id="pet-icon">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/yollow-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+  </Document>
+</kml>
   </main>
   <footer class="footer">
     <p>&copy; 2024 Veterinary Jobs Marketplace</p>
